@@ -1,0 +1,138 @@
+* {
+  margin: 0px;
+}
+
+body {
+  background-color: #1e2022;
+}
+
+header {
+  padding: 30px;
+  background-color: #52616b;
+  text-align: center;
+  box-shadow: 10px 8px 30px 3px #c9d6df;
+}
+
+header a {
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 25px;
+  color: #c9d6df;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #1e2022;
+}
+
+.introduction {
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+  color: #c9d6df;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ 
+}
+
+.intro_name h1 {
+  font-weight: bold;
+  font-size: 10vh;
+}
+
+.intro_name p {
+  font-size: 5vh;
+}
+
+.intro_img img {
+  border-radius: 50%;
+  width: 70%;
+  float: right;
+}
+
+.box {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  padding: 70px;
+  border-top: 5px solid #c9d6df;
+  border-bottom: 5px solid #c9d6df;
+}
+
+.box h1,
+p {
+  font-size: 25px;
+  color: #c9d6df;
+}
+
+.projectfolio {
+  padding: 30px;
+  background-color: #52616b;
+  text-align: left;
+}
+
+.proj_content h1 {
+  font-size: 25px;
+  color: #c9d6df;
+}
+
+.each {
+    column-gap: 30%;
+    justify-content: center;
+    row-gap:15%;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+
+.each div button {
+    border-radius: 30px;
+    padding: 100px;
+    background-color: #c9d6df;
+    text-align: center;
+    font-size: 30px;
+    color: #323f4a;
+    cursor: pointer;
+
+}
+
+.each div button:hover {
+    background-color: #52616b;
+    box-shadow: 10px 8px 30px 3px #323f4a;
+    color: #c9d6df;
+}
+
+footer {
+    margin-top: 60px;
+    padding: 30px;
+    background-color: #52616b;
+    text-align: center;
+}
+
+footer h1 {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 25px;
+    color: #c9d6df;
+    text-decoration: none;
+}
+
+.contact {
+    margin-top: 30%;
+    text-align: center;
+}
+
+.contact_content h1 {
+    margin-bottom: 30px;
+    color: #c9d6df;
+}
+
+.contact_img img {
+    width: 40px;
+    filter: brightness(0) invert(1);
+    padding: 5px;
+}

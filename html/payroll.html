@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payroll System</title>
+    <link rel="stylesheet" href="../css/payroll.css">
+  </head>
+  <body>
+    <header>
+        <a href="../html/home.html">About</a>
+        <a href="../html/home.html#portfoliochannel">Projects</a>
+        <a href="../html/home.html#contactchannel">Contact</a>
+    </header>
+<div class="main">
+    
+    <h2>Payroll System</h2>
+<br><br>
+    <button onclick="addEmployee()">Add Employee</button>
+    <button onclick="deleteEmployee()">Delete Employee</button>
+
+    <table id="payrollTable">
+      <thead>
+        <tr>
+          <th>No.</th>
+          <th>Employee Name</th>
+          <th>Days Worked</th>
+          <th>Daily Rate</th>
+          <th>Gross Pay</th>
+          <th>Deduction Amount</th>
+          <th>Net Pay</th>
+        </tr>
+      </thead>
+      <tbody id="payrollBody"></tbody>
+    </table>
+    <script src="../script/payroll.js">
+    </script>
+    </div>
+  </body>
+</html>
